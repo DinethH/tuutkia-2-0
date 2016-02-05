@@ -1,0 +1,80 @@
+.social-icons, .logo {
+    height: 36px;
+}
+.social-icons {
+    padding-left: 10px;
+}
+.social-media {
+    text-align: right;
+}
+header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.tagline {
+    background: black;
+    color: white;
+    padding: 10px;
+    padding-left: 18px;
+}
+.tagline span {
+    opacity: 0.6;
+}
+.banner-wrapper {
+    background-color: rgba(50,255,200,0.5);
+}
+.banner {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.banner-margin {
+    background: black;
+    height: 36px;
+}
+.login-info {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    margin-top: -250px;
+}
+.login-info span {
+    opacity: 0.6;
+}
+.login-info-left, .login-info-right {
+    text-align: center;
+}
+.login-info-left > div, .login-info-right > div {
+    padding-bottom: 10px;
+}
+.form-control {
+    margin-right: 10px;
+}
+.search-wrapper {
+    padding: 20px;
+    text-align: center;
+}
+.search-wrapper > div {
+    padding-bottom: 15px;
+}
+.services-wrapper > div {
+    text-align: center;
+    padding: 10px;
+}
+.items-list {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;   
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.item-group {
+    width: 400px;
+}
