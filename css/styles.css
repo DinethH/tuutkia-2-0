@@ -15,7 +15,7 @@ header {
     background: black;
     color: white;
     padding: 10px;
-    padding-left: 18px;
+    padding-left: 40px;
 }
 .tagline span {
     opacity: 0.6;
@@ -40,7 +40,7 @@ header {
     text-transform: uppercase;
     position: absolute;
     width: 100%;
-    margin-top: -250px;
+    margin-top: -270px;
 }
 .login-info span {
     opacity: 0.6;
@@ -76,5 +76,46 @@ header {
     justify-content: center;
 }
 .item-group {
-    width: 400px;
+    width: 50%;
+}
+.item-icon {
+    width: 130px;
+    text-align: left;
+}
+.item-icon img {
+    width: 80px;
+}
+.item-desc {
+    width: calc(100% - 130px);
+    text-align: left;
+}
+.item-group {
+    padding: 10px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-links {
+    margin-top: 20px;
+}
+.footer-links, .footer-links a {
+        color: rgb(50,100,255);
+}
+.footer-links a {
+    padding: 5px;
+}
+.btn {
+    text-shadow: 1px 1px 3px #000;
+}
+h4 {
+    font-weight: bold;
+}
+.store-links {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

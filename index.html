@@ -17,43 +17,49 @@
   <body>
 
     <header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-8 logo">
                     <img src="img/logo.jpg">
                 </div>
                 <div class="col-xs-4 social-media">
-                    <img class="social-icons" src="img/facebook-icon.png">
                     <img class="social-icons" src="img/twitter-icon.png">
+                    <img class="social-icons" src="img/facebook-icon.png">
                 </div>
             </div>
         </div>
     </header>
     <div class="tagline">
-        <span>the</span> croud-sourced <span>marketplace for</span> qualified <span>sales leads.</span>
+        <div class="container">
+            <div class="row">
+                <span>the</span> croud-sourced <span>marketplace for</span> qualified <span>sales leads.</span>
+            </div>
+        </div>
     </div>
     <div class="banner-wrapper">
         <img class="banner" src="img/banner.jpg">
-        <div class="container-fluid login-info">
+        <div class="login-info">
             <div style="height: 200px"></div>
-            <div class="row">
-                <div class="col-xs-9 login-info-left">
-                    <div><span>Acess our entire lead database.</span> Join free!</div>
-                    <div>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="inputPassword" placeholder="password">
-                            </div>
-                            <button type="submit" class="btn btn-info">JOIN</button>
-                        </form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-9 login-info-left">
+                        <div class="h4"><span>Acess our entire lead database.</span> Join free!</div>
+                        <div>
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                                </div>
+                                <button type="submit" class="btn btn-info">JOIN</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-3 login-info-right">
-                    <div>Member?</div>
-                    <button type="submit" class="btn btn-success">JOIN</button>
+                    <div class="col-xs-3 login-info-right">
+                        <div class="h4">Member?</div>
+                        <button type="submit" class="btn btn-success">LOGIN</button>
+                    </div>
                 </div>
                 
             </div>
@@ -61,8 +67,8 @@
     </div>
     <div class="banner-margin"></div>
     
-    <div class="search-wrapper text-primary">
-        <div>Search for hot leads that are currently on the marketplace!</div>
+    <div class="container search-wrapper text-primary">
+        <div class="h4">Search for hot leads that are currently on the marketplace!</div>
         <div>
             <form class="form-inline">
                 <div class="form-group">
@@ -71,29 +77,108 @@
                 <div class="form-group">
                     <input type="text" class="form-control" id="inputIndustry" placeholder="industry">
                 </div>
-                <button type="submit" class="btn btn-info">JOIN</button>
+                <button type="submit" class="btn btn-info">SEARCH</button>
             </form>            
         </div>
     </div>
     
     <div class="services-wrapper bg-success">
-        <div class="text-info">We are unique platform where sales communities work and win, together.</div>
-        <div class="container-fluid">
-            <div class="items-list">
-                <div class="item-group">
-                    <div class="item-icon pull-left">fdfdf</div>
-                    <div class="item-desc pull-right">fdfdf</div>
-                    <div></div>
+        <div class="container">
+            <div class="text-info h4">We are unique platform where sales communities work and win, together.</div>
+            <div class="container" style="margin-top: 20px">
+                <div class="items-list">
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Hot leads to buy</h4>
+                            <p>No need to sign up or log in to view available Leads. Simply use the search bar below and locate Leads by Product, Service or industry. Sign up to Buy Leads.</p>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Contact Intros</h4>
+                            <p>Get introduced by the Seller to potential Contacts for the Lead. Buyer knows there is an potential opportunity and a Contact to follow-up to boot.</p>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Lead Verification</h4>
+                            <p>Get directly introduced to the Customer to verify the opportunity as part of the TheLeadsXchange Buying process.</p>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Market Leads</h4>
+                            <p>Hot leads that are qualified and ultra-qualified are available. Search by Product, Service, Industry or even Location.</p>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Social Media Reach</h4>
+                            <p>Extend your reach and share the Leads you want to Sell across your social network along with our platform. Maximize the dollar value of your Lead.</p>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon pull-left">
+                            <img src="img/calendar-icon.png" >
+                        </div>
+                        <div class="item-desc pull-right">
+                            <h4>Buyer Profile</h4>
+                            <p>Seller can verify the background of the Buyer prior to finalizing the purchase, helping the Seller in selecting the right Buyer for his or her Lead.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                    
                 </div>
-                <div class="item-group">
-                    <div class="item-icon pull-left">fdfdf</div>
-                    <div class="item-desc pull-right">fdfdf</div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right;">
+                        <img class="store-links" src="img/App-Store-Transparent-border.png">
+                    </div>
+                    <div class="col-xs-4 h4" style="padding-top: 35px;">
+                        COMING SOON TO iOS AND ANDROID
+                    </div>
+                    <div class="col-xs-4" style="text-align: left;">
+                        <img class="store-links" src="img/Google-Play-Transparent-border.png">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div>
+                <span>&copy All rights reserved (2016) Tuutkia.</span>
+            </div>
+            <div class="footer-links">
+                <a href="">Privacy Policy</a> |
+                <a href="">Terms &amp Conditions</a> |
+                <a href="">FAQ</a> |
+                <a href="">About</a> |
+                <a href="">Contact Us</a>
+                
+            </div>
+        </div>
+        
+    </footer>
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
